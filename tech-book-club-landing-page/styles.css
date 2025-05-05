@@ -133,6 +133,22 @@
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 20px;
+  width: 380px;
+}
+
+.content-container button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Martian mono", monospace;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 130%;
+    color: var(--neutral-900);
+    text-decoration: none;
+
 }
 
 .content-container button:hover {
@@ -148,12 +164,16 @@
   outline-offset: 4px;
 }
 
-.content-container button img {
-  /* border: 1px solid var(--lightsalmon-500); */
-  width: 15px;
-  height: 17px;
+.content-container button a:visited{
+    color: var(--neutral-900);
+}
+
+button a img {
+  width: 24px;
+  height: 24px;
   margin-left: 19.96px;
 }
+
 .section1-hero-container-img1 {
   display: flex;
   justify-content: flex-start;
@@ -185,7 +205,7 @@
 }
 
 .section1-small small {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   font-weight: 400;
   font-size: 14px;
   line-height: 120%;
@@ -218,7 +238,7 @@
 }
 
 .hero-section2-text h2 {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   font-size: 50px;
   line-height: 130%;
   letter-spacing: -2px;
@@ -260,7 +280,7 @@
 }
 
 .hero-section3-text h2 {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   font-size: 50px;
   line-height: 130%;
   letter-spacing: -2px;
@@ -272,10 +292,11 @@
   line-height: 140%;
   letter-spacing: -0.5px;
   color: var(--neutral-700);
+  width: 540px;
 }
 
 .hero-section3-text p br{
-    display: none;
+    display: block;
 }
 
 .hero-section3-text p span {
@@ -322,7 +343,7 @@
   border-radius: 12px;
   align-items: center;
   margin: 120px auto 120px auto;
-  padding: 80px 32px 80px 32px;
+  padding: 80px 0 80px 0;
 }
 
 .hero-section4-heading {
@@ -335,7 +356,7 @@
 }
 
 .hero-section4-heading h2 {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   display: flex;
   justify-content: center;
   font-size: 50px;
@@ -349,7 +370,6 @@
 .hero-section4-step-container {
   display: flex;
   width: 1050px;
-  height: 110.02px;
   justify-content: center;
   font-family: "Inter", sans-serif;
 }
@@ -400,18 +420,20 @@
 }
 
 .membership-option-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   width: 100%;
 }
 
 .membership-option-heading h2 {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   font-size: 50px;
   line-height: 130%;
   font-weight: 600;
   letter-spacing: -2px;
   margin-bottom: 64px;
-  text-align: center;
-
+  
 }
 
 .membership-option-cards {
@@ -437,7 +459,7 @@
 }
 
 .option-card1 .option-details1 h3 {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   font-size: 24px;
   line-height: 110%;
   letter-spacing: -1px;
@@ -446,7 +468,7 @@
 }
 
 .option-card1 .option-details1 span {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   font-size: 34px;
   line-height: 130%;
   letter-spacing: -1px;
@@ -539,7 +561,7 @@
 }
 
 .option-card2 .option-details2 span {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   font-size: 34px;
   line-height: 130%;
   letter-spacing: -1px;
@@ -547,7 +569,7 @@
 }
 
 .option-details2 h3 {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   font-size: 24px;
   line-height: 110%;
   letter-spacing: -1px;
@@ -636,7 +658,7 @@
 }
 
 .option-card3 .option-details3 h3 {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   font-size: 24px;
   line-height: 110%;
   letter-spacing: -1px;
@@ -645,7 +667,7 @@
 }
 
 .option-card3 .option-details3 span {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   font-size: 34px;
   line-height: 130%;
   letter-spacing: -1px;
@@ -754,7 +776,7 @@
   align-items: center;
 }
 .testimonial-text h3 {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   font-size: 34px;
   line-height: 130%;
   letter-spacing: 0px;
@@ -793,7 +815,7 @@
 }
 
 .main-heading-container h2 {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   font-size: 50px;
   line-height: 130%;
   letter-spacing: 0px;
@@ -810,7 +832,7 @@
 }
 
 .call-to-action-button button {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   font-size: 18px;
   line-height: 130%;
   letter-spacing: 0px;
@@ -858,7 +880,7 @@
 }
 
 .rating-container-2 small {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   font-size: 14px;
   line-height: 120%;
   letter-spacing: -1px;
@@ -876,7 +898,7 @@
 }
 
 .footer-text-container p {
-  font-family: "Martian mono", sans-serif;
+  font-family: "Martian mono", monospace;
   font-size: 14px;
   line-height: 120%;
   letter-spacing: -1px;
@@ -1006,7 +1028,7 @@
   }
 
   .hero-section3-text h2 {
-    font-family: "Martian mono", sans-serif;
+    font-family: "Martian mono", monospace;
     font-size: 50px;
     line-height: 130%;
     letter-spacing: -1px;
@@ -1171,7 +1193,7 @@
   }
 
   .testimonial-text h3 {
-    font-family: "Martian mono", sans-serif;
+    font-family: "Martian mono", monospace;
     font-size: 34px;
     line-height: 130%;
     letter-spacing: 2px;
@@ -1214,6 +1236,11 @@
     }
 
     .section1-hero-container .content-container{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .section1-hero-container .content-container button {
         width: 100%;
     }
 
