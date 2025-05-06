@@ -891,6 +891,7 @@ button a img {
 .footer-content-container {
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid var(--neutral-200);
   width: 1170px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -1212,17 +1213,32 @@ button a img {
     letter-spacing: -0.5%;
   } */
 
-  .footer-content-container {
-    background-color: var(--neutral-900);
-  }
   .footer-container {
     padding: 64px 32px 0 32px;
     width: 100%;
   }
 
-  .footer-content-container{
-    padding: 24px 32px;
+  .main-content-container {
     width: 100%;
+  }
+
+  .footer-content-container{
+    display: flex;
+
+    background-color: var(--neutral-900);
+    padding: 24px 32px;
+    width: 768px;
+    text-align: center;
+  }
+
+  .footer-text-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .social-media-container  {
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -1395,20 +1411,27 @@ button a img {
 
     .main-heading-container h2 {
         width: 100%;
+        letter-spacing: -1px;
     }
 
     .footer-container {
         width: 100%;
-        padding: 24px 32px;
+        padding: 48px 16px 0 16px;
     }
 
     .footer-content-container {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
     .footer-text-container {
         margin-bottom: 16px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .footer-text-container p{
