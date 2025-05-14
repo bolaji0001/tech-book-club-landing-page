@@ -922,6 +922,7 @@ button a img {
   } */
   .container {
     width: 768px;
+    margin: 0 auto;
 
   }
 
@@ -1246,6 +1247,7 @@ button a img {
 @media (max-width: 375px) {
     .container {
         width: 375px;
+        margin: 0 auto;
     }
 
     .section1 {
