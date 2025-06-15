@@ -24,23 +24,24 @@
 
 @font-face {
   font-family: "Inter";
-  src: url(./starter-code/assets/images/favicon-32x32.webp);
+  src: url(/tech-book-club-landing-page/starter-code/assets/fonts/inter/Inter-VariableFont_opsz\,wght.ttf);
   font-weight: 100 900;
   font-style: normal;
 }
 
 .container {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
 .section1 {
-  width: 100%;
+  max-width: 100%;
   padding: 32px 135px 80px 135px;
 }
 
 .nav {
-  width: 1184.06px;
+  max-width: 1184.06px;
+  width: 100%;
   display: block;
   margin-bottom: 80px;
 }
@@ -56,7 +57,8 @@
 }
 
 .nav-img-container img {
-  width: 31px;
+  max-width: 31px;
+  width: 100%;
   height: 36px;
   border-radius: 16px;
   background-color: black;
@@ -84,10 +86,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .section1-hero-container .content-container {
-  width: 570px;
+  max-width: 570px;
+  width: 100%;
   margin-right: 64px;
 }
 
@@ -120,9 +124,7 @@
 }
 
 .content-container button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   padding: 20px 24px;
   border-radius: 8px;
   border: 2px solid var(--neutral-900);
@@ -134,14 +136,15 @@
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 20px;
-  width: 380px;
+  max-width: 380px;
+  width: 100%;
+  height: auto;
 }
 
 .content-container button a {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
     font-family: "Martian mono", monospace;
     font-size: 18px;
     font-weight: 600;
@@ -170,7 +173,8 @@
 }
 
 button a img {
-  width: 24px;
+  max-width: 24px;
+  width: 100%;
   height: 24px;
   margin-left: 19.96px;
 }
@@ -182,26 +186,33 @@ button a img {
 }
 
 .section1-hero-container-img1 img {
-  width: 110px;
-  height: 40px;
+  max-width: 110px;
+  width: 100%;
+  max-height: 40px;
+  height: 100%;
 }
 
 .content-container {
   text-align: left;
   margin-bottom: 57.5px;
 }
+.hero-image-1{
+  max-width: 540px;
+  width: 100%;
+}
 
 .hero-image-1 .section1-hero-container-img2 {
   background: url(./starter-code/assets/images/image-hero-desktop.webp);
   background-position: center;
   background-size: cover;
-  width: 540px;
+  width: 100%;
   height: 606px;
   border-radius: 8px;
 }
 
 .section1-image-text img {
-  width: 24px;
+  max-width: 24px;
+  width: 100%;
   height: 24px;
 }
 
@@ -217,7 +228,7 @@ button a img {
 .hero-section2 {
   display: flex;
   align-items: center;
-  width: 1170px;
+  max-width: 1170px;
   margin: 120px auto 120px auto;
 }
 .hero-section2-img {
@@ -271,7 +282,7 @@ button a img {
   display: flex;
   align-items: center;
   position: relative;
-  width: 1170px;
+  max-width: 1170px;
   margin: 120px auto 120px auto;
 }
 
@@ -340,7 +351,7 @@ button a img {
 .hero-section4 {
   display: flex;
   flex-direction: column;
-  width: 1170px;
+  max-width: 1170px;
   border-radius: 12px;
   align-items: center;
   margin: 120px auto 120px auto;
@@ -413,7 +424,8 @@ button a img {
 .membership-options-container {
   display: flex;
   flex-direction: column;
-  width: 970px;
+  max-width: 970px;
+  width: 100%;
   margin: 120px auto 120px auto;
   align-items: center;
   justify-content: center;
@@ -424,7 +436,7 @@ button a img {
     display: flex;
     justify-content: center;
     align-items: center;
-  width: 100%;
+    width: 100%;
 }
 
 .membership-option-heading h2 {
@@ -449,7 +461,7 @@ button a img {
   flex-direction: column;
   align-items: center;
   padding: 24px 24px;
-  width: 100%;
+  width: 286px;
   border: 1px solid var(--neutral-200);
   border-radius: 8px;
   height: auto;
@@ -549,7 +561,7 @@ button a img {
 .membership-option-cards .option-card2 {
   border: 1px solid var(--neutral-200);
   border-radius: 8px;
-  min-width: 350px;
+  width: 350px;
   padding: 40px 24px;
   display: flex;
   flex-direction: column;
@@ -642,13 +654,13 @@ button a img {
   outline: 2px solid var(--neutral-900);
   outline-offset: 4px;
 }
-
+/*  */
 .membership-option-cards .option-card3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 24px 24px;
-  width: 100%;
+  width: 286px;
   border: 1px solid var(--neutral-200);
   border-radius: 8px;
   height: auto;
@@ -658,7 +670,7 @@ button a img {
   width: 100%;
 }
 
-.option-card3 .option-details3 h3 {
+.option-details3 h3 {
   font-family: "Martian mono", monospace;
   font-size: 24px;
   line-height: 110%;
@@ -667,7 +679,7 @@ button a img {
   margin-bottom: 24px;
 }
 
-.option-card3 .option-details3 span {
+.option-details3 span {
   font-family: "Martian mono", monospace;
   font-size: 34px;
   line-height: 130%;
@@ -675,13 +687,13 @@ button a img {
   font-weight: 600;
 }
 
-.option-card3 .option-details3 hr {
+.option-details3 hr {
   width: 238px;
   height: 1px;
   margin-bottom: 24px;
 }
 
-.option-card3 .option-details3 p {
+.option-details3 p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -697,16 +709,16 @@ button a img {
   width: 100%;
 }
 
-.option-details3 .features-container p {
+.features-container p {
   margin: 0;
   margin-left: 12px;
 }
 
-.option-details3 .features-container:nth-of-type(1) {
+.features-container:nth-of-type(1) {
   margin-bottom: 16px;
 }
 
-.option-details3 .features-container:nth-of-type(2) {
+.features-container:nth-of-type(2) {
   margin-bottom: 32px;
 }
 
@@ -715,25 +727,28 @@ button a img {
   padding: 0;
 }
 
-.option-card3 .option-button3 button {
+.option-button3 button {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   padding: 20px 24px;
   border-radius: 8px;
   border: 2px solid var(--neutral-900);
   color: var(--neutral-900);
+  font-family: inherit;
   font-size: 18px;
   line-height: 130%;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   background-color: var(--lightsalmon-50);
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 0;
-  width: 100%;
+  transition: background 0.3 ease;
+  cursor: pointer;
 }
 
-.option-card3 .option-button3 button:hover {
+.option-button3 button:hover {
   background: linear-gradient(
     to right,
     var(--lightsalmon-100) 0%,
@@ -741,16 +756,16 @@ button a img {
   );
 }
 
-.option-card3 .option-button3 button:focus {
+.option-button3 button:focus {
   outline: 2px solid var(--neutral-900);
   outline-offset: 4px;
 }
-
+/*  */
 .testimonials-container {
   width: 970px;
   display: flex;
   flex-direction: column;
-  margin: 120px auto 120px auto;
+  margin: 120px auto;
   align-items: center;
   justify-content: center;
 }
@@ -794,6 +809,7 @@ button a img {
   line-height: 140%;
   letter-spacing: -0.5%;
 }
+
 
 .footer-container {
   padding-left: 135px;
@@ -894,8 +910,7 @@ button a img {
   justify-content: space-between;
   border-top: 1px solid var(--neutral-200);
   width: 1170px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   align-items: center;
 }
 
@@ -916,18 +931,15 @@ button a img {
 }
 
 @media (max-width: 768px) {
-  /* body {
-    display: flex;
-    justify-content: center;
-  } */
+ 
   .container {
-    width: 768px;
+    width: 100%;
     margin: 0 auto;
 
   }
 
   .section1 {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     padding: 32px 32px 80px 32px;
@@ -946,16 +958,23 @@ button a img {
   }
 
   .section1-hero-container .content-container {
+    max-width: 100%;
+    width: 100%;
     margin-bottom: 64px;
   }
 
-  .hero-image-1 .section1-hero-container-img2 {
-    background: url(./starter-code/assets/images/image-hero-tablet.webp);
-    background-position: center;
-    background-size: cover;
-    width: 704px;
-    height: 790.04px;
+
+  .hero-image-1{
+    max-width: 704px;
+    width: 100%;
   }
+  .hero-image-1 .section1-hero-container-img2 {
+  background: url(./starter-code/assets/images/image-hero-tablet.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  width: 100%;
+}
 
   .section1-hero-container {
     display: flex;
@@ -970,11 +989,12 @@ button a img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 768px;
+    width: 100%;
     padding: 0 32px;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
+    max-width: 100%;
     /* height: auto;     */
     /* text-align: start; */
   }
@@ -983,7 +1003,15 @@ button a img {
     order: 2;
     justify-content: flex-start;
     border-radius: 25.14px 25.14px;
-    width: 704px;
+    width: 100%;
+    height: 653.71px;
+  }
+
+  .hero-section2-img .hero-section2-img1 {
+    background: url(./starter-code/assets/images/image-read-together-tablet.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
     height: 653.71px;
   }
 
@@ -995,14 +1023,7 @@ button a img {
     margin-left: 0;
   }
 
-  .hero-section2-img .hero-section2-img1 {
-    background: url(./starter-code/assets/images/image-read-together-tablet.webp);
-    background-position: center;
-    background-size: cover;
-    width: 704px;
-    height: 653.71px;
-    
-  }
+  
 
   .checkbox-container .checkbox-container-div {
     margin-bottom: 24px;
@@ -1018,6 +1039,7 @@ button a img {
     margin-left: 0;
     margin-bottom: 0;
     margin-right: 0;
+    max-width: 768px;
     width: 100%;
   }
 
@@ -1053,7 +1075,8 @@ button a img {
     display: flex;
     justify-content: center;
     margin-left: 0px;
-    width: 704px;
+    max-width: 704px;
+    width: 100%;
     height: 653.71px;
     display: block;
   }
@@ -1061,13 +1084,15 @@ button a img {
     background: url(./starter-code/assets/images/image-not-average-tablet.webp);
     background-size: cover;
     background-position: center;
-    width: 704px;
+    width: 100%;
     height: 653.71px;
   }
 
   .hero-section4 {
-    width: 704px;
-    height: 806px;
+    max-width: 704px;
+    width: 100%;
+    max-height: 806px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1128,6 +1153,7 @@ button a img {
 
   .membership-options-container {
     padding: 0 32px;
+    max-width: 100%;
     width: 100%;
     margin-top: 80px;
     margin-bottom: 0;
@@ -1145,36 +1171,40 @@ button a img {
 
   .membership-option-cards {
     display: flex;
+    max-width: 100%;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
   }
 
   .membership-option-cards .option-card1 {
-    width: 340px;
+    max-width: 340px;
+    width: 100%;
     padding: 24px 24px;
     margin-bottom: 24px;
     margin-right: 24px;
   }
 
   .membership-option-cards .option-card2 {
-    width: 340px;
+    max-width: 340px;
+    width: 100%;
     padding: 24px 24px;
     margin-bottom: 24px;
     margin-right: 0;
     margin-left: 0;
-    min-width: 0;
 
   }
 
   .membership-option-cards .option-card3 {
-    width: 340px;
+    max-width: 340px;
+    width: 100%;
     padding: 24px 24px;
 
   }
 
   .testimonials-container {
-    width: 768px;
+    max-width: 100%;
+    width: 100%;
     align-items: flex-start;
     padding: 0 32px;
     margin-top: 80px;
@@ -1185,7 +1215,8 @@ button a img {
 
 
   .testimonial-content{
-    width: 768px;
+    max-width: 768px;
+    width: 100%;
   }
 
   .testimonial-content .testimonial-text {
@@ -1216,8 +1247,9 @@ button a img {
   } */
 
   .footer-container {
-    padding: 64px 32px 0 32px;
+    max-width: 768px;
     width: 100%;
+    padding: 64px 32px 0 32px;
   }
 
   .main-content-container {
@@ -1229,7 +1261,8 @@ button a img {
 
     background-color: var(--neutral-900);
     padding: 24px 32px;
-    width: 768px;
+    max-width: 768px;
+    width: 100%;
     text-align: center;
   }
 
@@ -1246,7 +1279,8 @@ button a img {
 
 @media (max-width: 375px) {
     .container {
-        width: 375px;
+        max-width: 375px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -1269,25 +1303,31 @@ button a img {
         background: url("./starter-code/assets/images/image-hero-mobile.webp");
         background-position: center;
         background-size: cover;
-        width: 343px;
-        height: 384.92px;
+        max-width: 343px;
+        width: 100%;
+        max-height: 384.92px;
+        height: 100%;
     }
 
     .hero-section2 {
+      max-width: 375px;
         width: 100%;
         padding: 0 16px;
     }
 
     .hero-section2-img {
-        height: 318.5px;
+        max-height: 318.5px;
+        height: 100%l
     }
 
     .hero-section2-img .hero-section2-img1{
         background: url(./starter-code/assets/images/image-read-together-mobile.webp);
         background-position: center;
         background-size: cover;
-        width: 343px;
-        height: 319px;
+        max-width: 343px;
+        width: 100%;
+        max-height: 319px;
+        height: 100%;
     }
 
     .hero-section2 .hero-section2-text {
@@ -1303,7 +1343,8 @@ button a img {
     }
 
     .hero-section3 {
-        width: 100%;
+      max-width: 375px;
+      width: 100%;
         padding: 0 16px;
     }
 
@@ -1326,8 +1367,13 @@ button a img {
         left: -9px;
     }
 
-    .hero-section3-text img p {
+    .hero-section3-text p {
+      max-width: 343px;
         width: 100%;
+    }
+
+    .hero-section3-svg{
+      display: none;
     }
 
     .hero-section3-svg img {
@@ -1335,18 +1381,22 @@ button a img {
     }
 
     .hero-section3 .hero-section3-img {
-        height: 318px;
+        max-height: 318px;
+        height: 100%;
     }
 
-    .hero-section3 .hero-section3-img1 {
+    .hero-section3-img .hero-section3-img1 {
         background: url(./starter-code/assets/images/image-not-average-mobile.webp);
         background-size: cover;
         background-position: center;
-        width: 343px;
-        height: 318.5px;
+        max-width: 343px;
+        width: 100%;
+        max-height: 318.5px;
+        height: 100%;
     }
 
     .hero-section4 {
+      max-width: 375px;
         width: 100%;
         padding: 64px 16px;
     }
@@ -1376,22 +1426,43 @@ button a img {
     }
 
     .membership-options-container {
+      max-width: 375px;
+      width: 100%;
         padding: 0 16px;
     }
 
     .membership-option-heading {
-
+      max-width: 100%;
+      width: 100%;
     }
 
     .membership-option-cards {
-        width: 100%;
+      width: 100%;
+      max-width: 343px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .membership-option-cards .option-card1 {
+      max-width: 340px;
+      width: 100%;
         margin-right: 0;
     }
 
+    .membership-option-cards .option-card2{
+      max-width: 340px;
+      width: 100%;
+    }
+
+    .membership-option-cards .option-card3{
+      max-width:340px;
+      width: 100%;
+
+    }
+
     .testimonials-container {
+      max-width: 375px;
         width: 100%;
         padding: 0 16px;
     }
@@ -1405,6 +1476,8 @@ button a img {
     }
 
     .footer-container {
+      max-width: 375px;
+      width: 100%;
         padding: 48px 16px 0 16px;
     }
 
@@ -1428,6 +1501,8 @@ button a img {
         width: 100%;
         justify-content: center;
         align-items: center;
+        background-color: var(--neutral-900);
+        padding: 24px 32px;
     }
 
     .footer-text-container {
