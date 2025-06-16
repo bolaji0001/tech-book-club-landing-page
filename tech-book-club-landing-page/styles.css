@@ -30,12 +30,12 @@
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1406px;
   margin: 0 auto;
 }
 
 .section1 {
-  max-width: 100%;
+  max-width: 100vw;
   padding: 32px 135px 80px 135px;
 }
 
@@ -229,6 +229,7 @@ button a img {
   display: flex;
   align-items: center;
   max-width: 1170px;
+  width: 100vw;
   margin: 120px auto 120px auto;
 }
 .hero-section2-img {
@@ -236,11 +237,15 @@ button a img {
   justify-content: center;
 }
 
+.hero-section2-img{
+  max-width: 560px;
+  width: 100%;
+}
 .hero-section2-img .hero-section2-img1 {
   background: url(./starter-code/assets/images/image-read-together-desktop.webp);
   background-size: cover;
   background-position: center;
-  width: 560px;
+  width: 100%;
   height: 520px;
   border-radius: 20px;
 }
@@ -288,7 +293,7 @@ button a img {
 
 .hero-section3-text {
   position: relative;
-  width: 530px;
+  max-width: 530px;
 }
 
 .hero-section3-text h2 {
@@ -304,7 +309,7 @@ button a img {
   line-height: 140%;
   letter-spacing: -0.5px;
   color: var(--neutral-700);
-  width: 540px;
+  max-width: 540px;
 }
 
 .hero-section3-text p br{
@@ -317,23 +322,21 @@ button a img {
 
 .hero-section3-text img {
   position: absolute;
-  /* width: 68.06px;
-    height: 158.9px; */
   top: 55px;
   left: 110px;
 }
 
 .hero-section3-svg {
   position: absolute;
-  width: 119.56px;
+  max-width: 119.56px;
   height: 138px;
   left: 530px;
   top: 351px;
 }
 
 .hero-section3-img {
-  /* width: 800px;
-  height: 533px; */
+  max-width: 560px;
+  width: 100%;
   display: flex;
   justify-content: center;
   margin-left: 80px;
@@ -343,7 +346,7 @@ button a img {
   background: url("./starter-code/assets/images/image-not-average-desktop.webp");
   background-position: center;
   background-size: cover;
-  width: 560px;
+  width: 100%;
   height: 520px;
   border-radius: 20px;
 }
@@ -352,6 +355,7 @@ button a img {
   display: flex;
   flex-direction: column;
   max-width: 1170px;
+  width: 100vw;
   border-radius: 12px;
   align-items: center;
   margin: 120px auto 120px auto;
@@ -376,12 +380,12 @@ button a img {
   line-height: 130%;
   font-weight: 600;
   color: var(--neutral-900);
-  width: 512px;
+  max-width: 512px;
 }
 
 .hero-section4-step-container {
   display: flex;
-  width: 1050px;
+  max-width: 1050px;
   justify-content: center;
   font-family: "Inter", sans-serif;
 }
@@ -398,7 +402,7 @@ button a img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
+  max-width: 40px;
   height: 40px;
   border: 1px solid var(--neutral-900);
   padding: 4px 0;
@@ -406,7 +410,7 @@ button a img {
 }
 
 .hero-section4-step img {
-  width: 76.74px;
+  max-width: 76.74px;
   height: 20.51px;
   position: absolute;
   top: 20px;
@@ -425,7 +429,7 @@ button a img {
   display: flex;
   flex-direction: column;
   max-width: 970px;
-  width: 100%;
+  width: 100vw;
   margin: 120px auto 120px auto;
   align-items: center;
   justify-content: center;
@@ -461,7 +465,8 @@ button a img {
   flex-direction: column;
   align-items: center;
   padding: 24px 24px;
-  width: 286px;
+  max-width: 286px;
+  width: 100%;
   border: 1px solid var(--neutral-200);
   border-radius: 8px;
   height: auto;
@@ -561,7 +566,8 @@ button a img {
 .membership-option-cards .option-card2 {
   border: 1px solid var(--neutral-200);
   border-radius: 8px;
-  width: 350px;
+  max-width: 350px;
+  width: 100%;
   padding: 40px 24px;
   display: flex;
   flex-direction: column;
@@ -660,7 +666,8 @@ button a img {
   flex-direction: column;
   align-items: center;
   padding: 24px 24px;
-  width: 286px;
+  max-width: 286px;
+  width: 100%;
   border: 1px solid var(--neutral-200);
   border-radius: 8px;
   height: auto;
@@ -688,7 +695,8 @@ button a img {
 }
 
 .option-details3 hr {
-  width: 238px;
+  max-width: 238px;
+  width: 100%;
   height: 1px;
   margin-bottom: 24px;
 }
@@ -762,7 +770,8 @@ button a img {
 }
 /*  */
 .testimonials-container {
-  width: 970px;
+  max-width: 970px;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   margin: 120px auto;
@@ -818,7 +827,8 @@ button a img {
   padding-bottom: 0;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  max-width: 100%;
+  width: 100vw;
   background-color: var(--neutral-900);
   align-items: center;
 }
@@ -827,7 +837,8 @@ button a img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 753px;
+  max-width: 753px;
+  width: 100%;
   margin-bottom: 64px;
 }
 
@@ -836,7 +847,8 @@ button a img {
   font-size: 50px;
   line-height: 130%;
   letter-spacing: 0px;
-  width: 685px;
+  max-width: 685px;
+  width: 100%;
   margin-bottom: 40px;
   text-align: center;
   color: var(--neutral-0);
@@ -848,20 +860,35 @@ button a img {
   align-items: center;
 }
 
+.call-to-action-button{
+  display: flex;
+  align-items: center;
+  max-width: 380px;
+  width: 100%;
+}
+
 .call-to-action-button button {
+  display: flex;
+  align-items: center;
   font-family: "Martian mono", monospace;
   font-size: 18px;
   line-height: 130%;
-  letter-spacing: 0px;
+  letter-spacing: -1px;
   background-color: transparent;
   color: var(--neutral-0);
   border: 2px solid var(--neutral-0);
   border-radius: 8px;
   padding: 20px 24px;
   margin-bottom: 24px;
-  display: flex;
   text-transform: uppercase;
+  max-width: 380px;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  height: auto;
+
 }
+
 
 .call-to-action-button button:hover {
   background: linear-gradient(
@@ -872,7 +899,8 @@ button a img {
 }
 
 .call-to-action-button img {
-  width: 24px;
+  max-width: 24px;
+  width: 100%;
   height: 24px;
   margin-left: 16px;
 }
@@ -882,7 +910,8 @@ button a img {
 }
 
 .testimonial-image img {
-  width: 120px;
+  max-width: 120px;
+  width: 100%;
   height: 40px;
   margin-right: 4.5px;
 }
@@ -892,7 +921,8 @@ button a img {
   flex-direction: column;
 }
 .rating-container-2 .stars-container {
-  width: 140px;
+  max-width: 140px;
+  width: 100%;
   height: 28px;
 }
 
@@ -909,7 +939,8 @@ button a img {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid var(--neutral-200);
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
   padding: 24px 0;
   align-items: center;
 }
@@ -940,6 +971,7 @@ button a img {
 
   .section1 {
     max-width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     padding: 32px 32px 80px 32px;
@@ -995,6 +1027,7 @@ button a img {
     margin-left: 0;
     margin-right: 0;
     max-width: 100%;
+    width: 100vw;
     /* height: auto;     */
     /* text-align: start; */
   }
@@ -1003,6 +1036,7 @@ button a img {
     order: 2;
     justify-content: flex-start;
     border-radius: 25.14px 25.14px;
+    max-width: 704px;
     width: 100%;
     height: 653.71px;
   }
@@ -1040,7 +1074,7 @@ button a img {
     margin-bottom: 0;
     margin-right: 0;
     max-width: 768px;
-    width: 100%;
+    width: 100vw;
   }
 
   .hero-section3-text {
@@ -1090,7 +1124,7 @@ button a img {
 
   .hero-section4 {
     max-width: 704px;
-    width: 100%;
+    width: 100vw;
     max-height: 806px;
     height: 100%;
     display: flex;
@@ -1154,7 +1188,7 @@ button a img {
   .membership-options-container {
     padding: 0 32px;
     max-width: 100%;
-    width: 100%;
+    width: 100vw;
     margin-top: 80px;
     margin-bottom: 0;
     margin-left: 0;
@@ -1199,12 +1233,13 @@ button a img {
     max-width: 340px;
     width: 100%;
     padding: 24px 24px;
+    margin: 0 24px 24px 0;
 
   }
 
   .testimonials-container {
     max-width: 100%;
-    width: 100%;
+    width: 100vw;
     align-items: flex-start;
     padding: 0 32px;
     margin-top: 80px;
@@ -1248,7 +1283,7 @@ button a img {
 
   .footer-container {
     max-width: 768px;
-    width: 100%;
+    width: 100vw;
     padding: 64px 32px 0 32px;
   }
 
@@ -1285,7 +1320,7 @@ button a img {
     }
 
     .section1 {
-        width: 100%;
+        width: 100vw;
         padding: 24px 16px 80px 16px;
     }
 
@@ -1306,12 +1341,11 @@ button a img {
         max-width: 343px;
         width: 100%;
         max-height: 384.92px;
-        height: 100%;
     }
 
     .hero-section2 {
       max-width: 375px;
-        width: 100%;
+        width: 100vw;
         padding: 0 16px;
     }
 
@@ -1344,7 +1378,7 @@ button a img {
 
     .hero-section3 {
       max-width: 375px;
-      width: 100%;
+      width: 100vw;
         padding: 0 16px;
     }
 
@@ -1397,7 +1431,7 @@ button a img {
 
     .hero-section4 {
       max-width: 375px;
-        width: 100%;
+        width: 100vw;
         padding: 64px 16px;
     }
 
@@ -1427,7 +1461,7 @@ button a img {
 
     .membership-options-container {
       max-width: 375px;
-      width: 100%;
+      width: 100vw;
         padding: 0 16px;
     }
 
@@ -1463,7 +1497,7 @@ button a img {
 
     .testimonials-container {
       max-width: 375px;
-        width: 100%;
+        width: 100vw;
         padding: 0 16px;
     }
 
@@ -1477,7 +1511,7 @@ button a img {
 
     .footer-container {
       max-width: 375px;
-      width: 100%;
+      width: 100vw;
         padding: 48px 16px 0 16px;
     }
 
@@ -1488,11 +1522,6 @@ button a img {
     .main-heading-container h2 {
         width: 100%;
         letter-spacing: -1px;
-    }
-
-    .footer-container {
-        width: 100%;
-        padding: 48px 16px 0 16px;
     }
 
     .footer-content-container {
