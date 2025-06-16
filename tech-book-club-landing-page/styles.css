@@ -252,6 +252,8 @@ button a img {
 
 .hero-section2-text {
   margin-left: 80px;
+  max-width: 530px;
+  width: 100%;
 }
 
 .hero-section2-text h2 {
@@ -261,11 +263,13 @@ button a img {
   letter-spacing: -2px;
   font-weight: 600;
   margin-bottom: 34px;
+  width: 100%;
 }
 
 
 .checkbox-container {
-  width: 431px;
+  max-width: 431px;
+  width: 100%;
 }
 
 .checkbox-container-div {
