@@ -12,325 +12,518 @@
     />
     <title>Frontend Mentor | Tech book club</title>
     <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../queries.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="section1">
-        <div class="nav">
-          <div class="nav-elements">
-            <div class="nav-img-container">
-              <img src="./assets/images/Vector.png" alt="Vector.png" />
-            </div>
-            <ul>
-              <li><a href="">Tech</a></li>
-              <li><a href="">Book</a></li>
-              <li><a href="">Club</a></li>
+    <main class="main">
+      <header class="header">
+        <div class="container">
+          <a class="logo" href="#">
+            <img
+              src="./assets/images/Vector.png"
+              class="nav-logo"
+              alt="Vector.png"
+            />
+          </a>
+          <div class="main-nav">
+            <ul class="main-nav-list">
+              <li><a href="#">Tech</a></li>
+              <li><a href="#">Book</a></li>
+              <li><a href="#">Club</a></li>
             </ul>
           </div>
         </div>
-
-        <div class="section1-hero-container">
+        <div class="grid">
           <div class="content-container">
-            <h2>Join the ultimate tech book club</h2>
-            <p>
-              Turn your reading time into learning time with fellow tech
-              enthusiasts. Get curated recommendations, join vibrant
-              discussions, and level up your skills one chapter at a time.
-            </p>
+            <div class="text-container">
+              <h1 class="primary-heading">
+                Join the<br />
+                ultimate tech<br />
+                book club
+              </h1>
+              <p class="description">
+                Turn your reading time into learning<br
+                  class="description-break-mobile"
+                />
+                time with fellow tech enthusiasts. Get<br
+                  class="description-break-mobile"
+                />
+                curated recommendations, join<br
+                  class="description-break-mobile"
+                />
+                vibrant discussions, and level up your<br
+                  class="description-break-mobile"
+                />
+                skills one chapter at a time.
+              </p>
+            </div>
 
-            <button>
-              <a href="#memberships" title="Review membership options">
-                Review membership options
+            <div class="call-to-action-container">
+              <button class="primary-button">
+                <a href="#memberships" title="Review membership options">
+                  Review membership options
+                </a>
                 <img
                   src="./assets/images/icon-arrow-down.svg"
                   alt="arrow-down-image.svg"
                 />
-              </a>
-            </button>
+              </button>
 
-            <div class="section1-hero-container-img1">
-              <img
-                src="./assets/images/image-avatars.webp"
-                alt="image-avatars"
-              />
-              <div class="section1-image-text">
-                <img src="./assets/images/icon-star.svg" alt="" />
-                <img src="./assets/images/icon-star.svg" alt="" />
-                <img src="./assets/images/icon-star.svg" alt="" />
-                <img src="./assets/images/icon-star.svg" alt="" />
-                <img src="./assets/images/icon-star.svg" alt="" />
-                <div class="section1-small">
-                  <small>200+ developers joined already</small>
+              <div class="component-total-testimonial">
+                <div class="testimonial-image">
+                  <img
+                    src="./assets/images/image-avatars.webp"
+                    alt="image-avatars"
+                  />
+                </div>
+                <div class="rating-container">
+                  <div class="stars-container">
+                    <img src="./assets/images/icon-star.svg" alt="" />
+                    <img src="./assets/images/icon-star.svg" alt="" />
+                    <img src="./assets/images/icon-star.svg" alt="" />
+                    <img src="./assets/images/icon-star.svg" alt="" />
+                    <img src="./assets/images/icon-star.svg" alt="" />
+                  </div>
+                  <div class="testimonial-text">
+                    <p>
+                      200+ developers joined
+                      <br class="testimonial-text-mobile-break" />already
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="hero-image-1">
-            <div class="section1-hero-container-img2"></div>
+          <div class="hero-image-container">
+            <picture>
+              <source
+                media="(max-width: 23.4375em)"
+                srcset="./assets/images/image-hero-mobile.webp"
+              />
+              <source
+                media="(max-width: 48em)"
+                srcset="./assets/images/image-hero-tablet.webp"
+              />
+              <img
+                src="./assets/images/image-hero-desktop.webp"
+                alt="Boy reading book in the library with friends"
+                class="hero-image"
+              />
+            </picture>
           </div>
         </div>
-      </div>
+      </header>
+      <section class="section-2">
+        <div class="container--2">
+          <div class="section-2-img-container">
+            <picture>
+              <source
+                media="(max-width: 23.4375em)"
+                srcset="./assets/images/image-read-together-mobile.webp"
+              />
+              <source
+                media="(max-width: 48em)"
+                srcset="./assets/images/image-read-together-tablet.webp"
+              />
+              <img
+                src="assets/images/image-read-together-desktop.webp"
+                alt="lecturer having an interactive session with students"
+              />
+            </picture>
+          </div>
 
-      <div class="hero-section2">
-        <div class="hero-section2-img">
-          <div class="hero-section2-img1"></div>
-        </div>
-        <div class="hero-section2-text">
-          <h2>
-            Read together,<br />
-            grow together
-          </h2>
-          <div class="checkbox-container">
-            <div class="checkbox-container-div">
-              <img src="./assets/images/icon-check.svg" alt="" />
-              <p>Monthly curated tech reads selected by industry experts</p>
-            </div>
-            <div class="checkbox-container-div">
-              <img src="./assets/images/icon-check.svg" alt="" />
-              <p>Virtual and in-person meetups for deep-dive discussions</p>
-            </div>
-            <div class="checkbox-container-div">
-              <img src="./assets/images/icon-check.svg" alt="" />
-              <p>Early access to new tech book releases</p>
-            </div>
-            <div class="checkbox-container-div">
-              <img src="./assets/images/icon-check.svg" alt="" />
-              <p>Author Q&A sessions with tech thought leaders</p>
+          <div class="text-container--2">
+            <h1>
+              Read together, <br class="text-container--2-h1-break" />grow
+              together
+            </h1>
+            <div class="features-list">
+              <div class="feature-item">
+                <div class="check">
+                  <img src="assets/images/icon-check.svg" alt="" />
+                </div>
+                <div class="feature-description">
+                  Monthly curated tech reads<br
+                    class="feature-description-break"
+                  />
+                  selected by industry experts
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="check">
+                  <img src="assets/images/icon-check.svg" alt="" />
+                </div>
+                <div class="feature-description">
+                  Virtual and in-person meetups<br
+                    class="feature-description-break"
+                  />
+                  for deep-dive discussions
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="check">
+                  <img src="assets/images/icon-check.svg" alt="" />
+                </div>
+                <div class="feature-description">
+                  Early access to new tech book<br
+                    class="feature-description-break"
+                  />
+                  releases
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="check">
+                  <img src="assets/images/icon-check.svg" alt="" />
+                </div>
+                <div class="feature-description">
+                  Author Q&A sessions with tech<br
+                    class="feature-description-break"
+                  />
+                  thought leaders
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="hero-section3">
-        <div class="hero-section3-text">
-          <h2>
-            Not your average<br />
-            book club
-          </h2>
-          <img
-            src="./assets/images/pattern-circle.png"
-            alt="pattern circle.png"
-          />
-          <p>
-            Connect with a community that speaks your language -<br />
-            from <span>Python</span> to <span>TypeScript</span> and everything
-            in between. Our<br />discussions blend technical depth with
-            practical<br />
+      </section>
+      <section class="section-3">
+        <div class="text-container--3">
+          <div class="title">
+            Not your<br class="title-break-mobile" />
+            average book<br class="title-break-mobile" />
+            club
+          </div>
+          <p class="description">
+            Connect with a community that speaks your language - from
+            <span>Python</span> to <span>TypeScript</span> and everything in
+            between. Our discussions blend technical depth with practical<br />
             applications.
           </p>
-        </div>
-        <div class="hero-section3-svg">
-          <img src="./assets/images/logos-tech.svg" alt="tech.svgs" />
-        </div>
-        <div class="hero-section3-img">
-          <div class="hero-section3-img1"></div>
-        </div>
-      </div>
 
-      <div class="hero-section4">
-        <div class="hero-section4-heading">
-          <h2>
-            Your tech<br />
-            reading journey
-          </h2>
+          <img src="assets/images/pattern-circle.png" alt="" />
+        </div>
+        <div class="section-3-img-container">
+          <picture>
+            <source
+              media="(max-width: 23.44em)"
+              srcset="./assets/images/image-not-average-mobile.webp"
+            />
+            <source
+              media="(max-width: 48em)"
+              srcset="./assets/images/image-not-average-tablet.webp"
+            />
+            <img src="assets/images/image-not-average-desktop.webp" alt="" />
+          </picture>
+        </div>
+        <div class="technologies-logo">
+          <img src="assets/images/logos-tech.svg" alt="technologies-logo" />
+        </div>
+      </section>
+
+      <section class="section-reading-journey">
+        <div class="reading-journey-container">
+          <div class="reading-journey-title">
+            Your tech <br class="reading-journey-title-break" />reading
+            <br class="reading-journey-title-break-tablet" />journey
+          </div>
+          <div class="step-container">
+            <div class="step">
+              <div class="step-number-container">
+                <p class="step-number">1</p>
+              </div>
+              <div class="step-description">
+                <p>
+                  Choose your <br class="step-description-p-break" />
+                  membership tier
+                </p>
+              </div>
+              <div class="arrow">
+                <img src="assets/images/pattern-arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number-container">
+                <p class="step-number">2</p>
+              </div>
+              <div class="step-description">
+                <p>
+                  Get your monthly<br class="step-description-p-break" />
+                  book selection
+                </p>
+              </div>
+              <div class="arrow">
+                <img src="assets/images/pattern-arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number-container">
+                <p class="step-number">3</p>
+              </div>
+              <div class="step-description">
+                <p>
+                  Join our discussion<br class="step-description-p-break" />
+                  forums
+                </p>
+              </div>
+              <div class="arrow">
+                <img src="assets/images/pattern-arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number-container">
+                <p class="step-number">4</p>
+              </div>
+              <div class="step-description">
+                <p>
+                  Attend exclusive <br class="step-description-p-break" />
+                  meetups
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="membership-options">
+        <div class="title">
+          Membership <br class="membership-options-title-break-mobile" />options
         </div>
 
-        <div class="hero-section4-step-container" id="memberships">
-          <div class="hero-section4-step">
-            <p class="step-p">1</p>
-            <img src="./assets/images/pattern-arrow.svg" alt="" />
-            <p>
-              Choose your<br />
-              membership tier
-            </p>
-          </div>
-          <div class="hero-section4-step">
-            <p class="step-p">2</p>
-            <img src="./assets/images/pattern-arrow.svg" alt="" />
-            <p>
-              Get your monthly<br />
-              book selection
-            </p>
-          </div>
-          <div class="hero-section4-step">
-            <p class="step-p">3</p>
-            <img src="./assets/images/pattern-arrow.svg" alt="" />
-            <p>
-              Join our discussion<br />
-              forums
-            </p>
-          </div>
-          <div class="hero-section4-step">
-            <p class="step-p">4</p>
-            <p>
-              Attend exclusive<br />
-              meetups
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="membership-options-container">
-        <div class="membership-option-heading">
-          <h2>Membership options</h2>
-        </div>
-        <div class="membership-option-cards">
-          <div class="option-card1">
-            <div class="option-details1">
-              <h3>Starter</h3>
-              <p><span>$19</span>/month</p>
-              <hr />
+        <div class="options-container">
+          <div class="option-card-sm">
+            <div class="option-details">
+              <p class="option-name">Starter</p>
+              <div class="price-container">
+                <div class="price">$19</div>
+                <div class="price-duration">/month</div>
+              </div>
+              <hr class="divider" />
               <div class="features-container">
-                <img
-                  src="./assets/images/icon-check.svg"
-                  alt="icon-check.svg"
-                />
-                <p>1 book/month</p>
-              </div>
-              <div class="features-container">
-                <img
-                  src="./assets/images/icon-check.svg"
-                  alt="icon-check.svg"
-                />
-                <p>Online forums</p>
-              </div>
-            </div>
-            <div class="option-button1">
-              <button>Subscribe now</button>
-            </div>
-          </div>
-          <div class="option-card2">
-            <div class="option-details2">
-              <h3>Pro</h3>
-              <p><span>$29</span>/month</p>
-              <hr />
-              <div class="features-container">
-                <img
-                  src="./assets/images/icon-check.svg"
-                  alt="icon-check.svg"
-                />
-                <p>2 books/month</p>
-              </div>
-              <div class="features-container">
-                <img
-                  src="./assets/images/icon-check.svg"
-                  alt="icon-check.svg"
-                />
-                <p>Virtual meetups</p>
-              </div>
-            </div>
-            <div class="option-button2">
-              <button>Subscribe now</button>
-            </div>
-          </div>
-          <div class="option-card3">
-            <div class="option-details3">
-              <h3>Enterprise</h3>
-              <p>Custom</p>
-              <hr />
-              <div class="features-container">
-                <img
-                  src="./assets/images/icon-check.svg"
-                  alt="icon-check.svg"
-                />
-                <p>Team access</p>
-              </div>
-              <div class="features-container">
-                <img
-                  src="./assets/images/icon-check.svg"
-                  alt="icon-check.svg"
-                />
-                <p>Private sessions</p>
-              </div>
-            </div>
-            <div class="option-button3">
-              <button>Talk to us</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testimonials-container">
-        <div class="rating-container-1">
-          <img src="./assets/images/icon-star.svg" alt="star-image.png" />
-          <img src="./assets/images/icon-star.svg" alt="star-image.png" />
-          <img src="./assets/images/icon-star.svg" alt="star-image.png" />
-          <img src="./assets/images/icon-star.svg" alt="star-image.png" />
-          <img src="./assets/images/icon-star.svg" alt="star-image.png" />
-        </div>
-
-        <div class="testimonial-content">
-          <div class="testimonial-text">
-            <h3>
-              "This book club transformed my<br />
-              technical reading from a<br />
-              solitary activity into an<br />enriching community<br />
-              experience. The discussions<br />
-              are gold!"
-            </h3>
-            <p>Akinosi Mobolaji, Software Engineer</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-container">
-        <div class="main-content-container">
-          <div class="main-heading-container">
-            <h2>Ready to debug your reading list?</h2>
-          </div>
-
-          <div class="call-to-action-container">
-            <div class="call-to-action-button">
-              <button>
-                Review membership options
-                <img
-                  src="./assets/images/icon-arrow-up.svg"
-                  alt="arrow-up-picture.svg"
-                />
-              </button>
-            </div>
-            <div class="component-total-testimonial">
-              <div class="testimonial-image">
-                <img
-                  src="./assets/images/image-avatars.webp"
-                  alt="people-images"
-                />
-              </div>
-              <div class="rating-container-2">
-                <div class="stars-container">
-                  <img src="./assets/images/icon-star.svg" alt="a-star-svg" />
-                  <img src="./assets/images/icon-star.svg" alt="a-star-svg" />
-                  <img src="./assets/images/icon-star.svg" alt="a-star-svg" />
-                  <img src="./assets/images/icon-star.svg" alt="a-star-svg" />
-                  <img src="./assets/images/icon-star.svg" alt="a-star-svg" />
+                <div class="feature-item--2">
+                  <div class="check">
+                    <img src="./assets/images/icon-check.svg" alt="" />
+                  </div>
+                  <div class="feature-text">
+                    <p>1 book/month</p>
+                  </div>
                 </div>
-                <small>200+ developers joined already</small>
+                <div class="feature-item--2">
+                  <div class="check">
+                    <img src="./assets/images/icon-check.svg" alt="" />
+                  </div>
+                  <div class="feature-text">
+                    <p>Online forums</p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div class="footer-content-container">
-          <div class="footer-text-container">
-            <p>© 2024 - Tech Book Club</p>
-          </div>
-          <div class="social-media-container">
-            <div class="social-media-icon-container">
+            <div class="primary-button">
+              <a href="#">Suscribe now</a>
               <img
-                src="./assets/images/logo-bluesky.svg"
-                alt="a-butterfly-svg"
+                src="assets/images/icon-arrow-down.svg"
+                alt="Arrow down svg"
               />
             </div>
-            <div class="social-media-text">
+          </div>
+          <div class="option-card-lg">
+            <div class="option-details">
+              <div class="option-name">Pro</div>
+              <div class="price-container">
+                <div class="price">$29</div>
+                <div class="price-duration">/month</div>
+              </div>
+              <hr class="divider" />
+              <div class="features-container">
+                <div class="feature-item--2">
+                  <div class="check">
+                    <img src="./assets/images/icon-check.svg" alt="" />
+                  </div>
+                  <div class="feature-text">
+                    <p>2 books/month</p>
+                  </div>
+                </div>
+                <div class="feature-item--2">
+                  <div class="check">
+                    <img src="./assets/images/icon-check.svg" alt="" />
+                  </div>
+                  <div class="feature-text">
+                    <p>Virtual meetups</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="primary-button">
+              <a href="#">Suscribe now</a>
               <img
-                src="./assets/images/logo-linkedin.svg"
+                src="assets/images/icon-arrow-down.svg"
+                alt="Arrow down svg"
+              />
+            </div>
+          </div>
+          <div class="option-card-sm">
+            <div class="option-details">
+              <div class="option-name">Enterprise</div>
+              <div class="price-container">
+                <div class="price">Custom</div>
+              </div>
+              <hr class="divider" />
+              <div class="features-container">
+                <div class="feature-item--2">
+                  <div class="check">
+                    <img src="./assets/images/icon-check.svg" alt="" />
+                  </div>
+                  <div class="feature-text">
+                    <p>Team access</p>
+                  </div>
+                </div>
+                <div class="feature-item--2">
+                  <div class="check">
+                    <img src="./assets/images/icon-check.svg" alt="" />
+                  </div>
+                  <div class="feature-text">
+                    <p>Private sessions</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="primary-button">
+              <a href="#">Talk to us</a>
+              <img
+                src="assets/images/icon-arrow-down.svg"
+                alt="Arrow down svg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="rating-container--2">
+          <img
+            src="assets/images/icon-star.svg"
+            alt="star-image"
+            class="stars"
+          />
+          <img
+            src="assets/images/icon-star.svg"
+            alt="star-image"
+            class="stars"
+          />
+          <img
+            src="assets/images/icon-star.svg"
+            alt="star-image"
+            class="stars"
+          />
+          <img
+            src="assets/images/icon-star.svg"
+            alt="star-image"
+            class="stars"
+          />
+          <img
+            src="assets/images/icon-star.svg"
+            alt="star-image"
+            class="stars"
+          />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-text">
+            "This book club<br class="testimonial-text-break-mobile" />
+            transformed my <br class="testimonial-text-break-tablet" /><br
+              class="testimonial-text-break-mobile"
+            />technical
+            <br class="testimonial-text-desktop-break" />
+            reading<br class="testimonial-text-break-mobile" />
+            from a<br class="testimonial-text-break-tablet" />
+            solitary<br class="testimonial-text-break-mobile" />
+            activity into an<br class="testimonial-text-break-mobile" />
+            <br class="testimonial-text-break-tablet" /><br
+              class="testimonial-text-desktop-break"
+            />
+            enriching community<br class="testimonial-text-break-tablet" /><br
+              class="testimonial-text-break-mobile"
+            />
+            experience. The <br class="testimonial-text-desktop-break" /><br
+              class="testimonial-text-break-mobile"
+            />
+            discussions<br class="testimonial-text-break-tablet" />
+            are<br class="testimonial-text-break-mobile" />
+            gold!"
+          </div>
+          <div class="author-info">Akinosi Mobolaji, Software Engineer</div>
+        </div>
+      </section>
+
+      <section class="section-footer">
+        <div class="main-content-container">
+          <div class="main-heading">
+            Ready to debug<br class="main-heading-break-mobile" />
+            your reading<br class="main-heading-break-mobile" />
+            list?
+          </div>
+          <div class="call-to-action-container--2">
+            <a href="#" class="alternate-button">
+              <div class="alternate-button-text">Review membership options</div>
+              <div class="arrow-up">
+                <img
+                  src="assets/images/icon-arrow-up.svg"
+                  alt="arrow up image"
+                />
+              </div>
+            </a>
+            <div class="component_total-testimonial">
+              <div class="testimonial-images">
+                <img
+                  src="assets/images/image-avatars.webp"
+                  alt="image avatars"
+                />
+              </div>
+              <div class="rating-container">
+                <div class="stars-container">
+                  <div class="star-image-container">
+                    <img src="assets/images/icon-star.svg" alt="star svg" />
+                  </div>
+                  <div class="star-image-container">
+                    <img src="assets/images/icon-star.svg" alt="star svg" />
+                  </div>
+                  <div class="star-image-container">
+                    <img src="assets/images/icon-star.svg" alt="star svg" />
+                  </div>
+                  <div class="star-image-container">
+                    <img src="assets/images/icon-star.svg" alt="star svg" />
+                  </div>
+                  <div class="star-image-container">
+                    <img src="assets/images/icon-star.svg" alt="star svg" />
+                  </div>
+                </div>
+                <div class="testimonial-text--2">
+                  200+ developers joined<br
+                    class="testimonial-text--2-break-mobile"
+                  />
+                  already
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content">
+          <div class="footer-content-container">
+            <div class="footer-text">© 2024 - Tech Book Club</div>
+            <div class="social-media-container">
+              <img
+                src="assets/images/logo-bluesky.svg"
+                alt="bluesky-logo-svg"
+              />
+              <img
+                src="assets/images/logo-linkedin.svg"
                 alt="linkedin-logo-svg"
               />
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   </body>
 </html>
