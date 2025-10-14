@@ -42,7 +42,7 @@ html {
 .header {
   display: flex;
   flex-direction: column;
-  gap: 8.0rem;
+  gap: 8rem;
   padding: 3.2rem 8rem 13.5rem 13.5rem;
   background: radial-gradient(
     circle at bottom right,
@@ -83,13 +83,12 @@ html {
 }
 
 .main-nav-list li {
-
 }
 
 .main-nav-list li a {
   font-family: "Fira Code", monospace;
   font-weight: 600;
-  font-size: 2.0rem;
+  font-size: 2rem;
   text-decoration: none;
   color: #062630;
 }
@@ -134,7 +133,7 @@ html {
   color: var(--neutral-700);
 }
 
-.description-break-mobile{
+.description-break-mobile {
   display: none;
 }
 
@@ -214,12 +213,10 @@ html {
   font-weight: 400;
 }
 
-.testimonial-text-mobile-break{
+.testimonial-text-mobile-break {
   display: none;
 }
-.testimonial-text-break-tablet{
-  display: none;
-}
+
 .hero-image-container {
   max-width: 54rem;
   max-height: 60.6rem;
@@ -229,7 +226,7 @@ html {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
-  
+
   border-radius: 8px;
   display: block;
 }
@@ -279,10 +276,6 @@ html {
   color: #062630;
 }
 
-
-
-
-
 .features-list {
   max-width: 43.1rem;
   color: #385159;
@@ -317,7 +310,7 @@ html {
   letter-spacing: -0.05rem;
 }
 
-.feature-description-break{
+.feature-description-break {
   display: none;
 }
 
@@ -345,7 +338,7 @@ html {
   color: #062630;
 }
 
-.title-break-mobile{
+.title-break-mobile {
   display: none;
 }
 
@@ -357,14 +350,20 @@ html {
   color: #385159;
 }
 
+.description-mobile-break{
+  display: none;
+}
+
 .text-container--3 img {
   max-width: 12.5rem;
   max-height: 15.89rem;
   position: absolute;
-  top: 28.93%;
+  top: 19.93%;
   left: 22.64%;
 }
 .section-3-img-container {
+  position: relative;
+
   max-width: 56rem;
   max-height: 52rem;
 }
@@ -377,10 +376,11 @@ html {
 
 .technologies-logo {
   position: absolute;
-  top: 60.68%;
-  left: 49.22%;
-  max-width: 11.956rem;
-  max-height: 13.8rem;
+  top: 64%;
+  left: 46.5%;
+  
+ max-width: 8.85%;
+  max-height: 22.7%
 }
 
 .technologies-logo img {
@@ -422,7 +422,7 @@ html {
   text-align: center;
 }
 
-.reading-journey-title .reading-journey-title-break-tablet{
+.reading-journey-title .reading-journey-title-break-tablet {
   display: none;
 }
 
@@ -495,7 +495,7 @@ html {
   margin: 0 auto;
 }
 
-.membership-options-title-break-mobile{
+.membership-options-title-break-mobile {
   display: none;
 }
 
@@ -633,11 +633,11 @@ html {
   text-align: center;
 }
 
-.testimonial-text-break-mobile{
+.testimonial-text-break-mobile {
   display: none;
 }
 
-.testimonial-text-break-tablet{
+.testimonial-text-break-tablet {
   display: none;
 }
 
@@ -679,11 +679,11 @@ html {
   color: #faf5f3;
 }
 
-.main-heading-break-mobile{
+.main-heading-break-mobile {
   display: none;
 }
 
-.call-to-action-container--2{
+.call-to-action-container--2 {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
@@ -751,7 +751,7 @@ html {
   gap: 0.2rem;
 }
 
-.star-image-container{
+.star-image-container {
   max-width: 2.8rem;
   width: 100%;
   max-height: 2.8rem;
@@ -774,25 +774,24 @@ html {
   color: #fff;
 }
 
-.testimonial-text--2-break-mobile{
+.testimonial-text--2-break-mobile {
   display: none;
 }
 
-.footer-content{
-  max-width: 117.0rem;
+.footer-content {
+  max-width: 117rem;
   box-shadow: inset 0 1px 0 0 #385159;
 
   max-height: fit-content;
   padding: 2.4rem 0;
-
 }
-.footer-content-container{
+.footer-content-container {
   display: flex;
   align-items: center;
   width: 100%;
 }
 
-.footer-text{
+.footer-text {
   font-family: "Martian Mono", monospace;
   font-weight: 400;
   font-size: 1.4rem;
@@ -802,12 +801,12 @@ html {
   margin-right: auto;
 }
 
-.social-media-container{
+.social-media-container {
   display: flex;
   gap: 2.4rem;
 }
 
-.social-media-container img{
+.social-media-container img {
   max-width: 1.8rem;
   max-height: 2.2rem;
 }
